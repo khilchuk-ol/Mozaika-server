@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mozaika.Data.Models.Core
 {
+    [Table("Tiles")]
     public class Tile
     {
         public int Id { get; set; }

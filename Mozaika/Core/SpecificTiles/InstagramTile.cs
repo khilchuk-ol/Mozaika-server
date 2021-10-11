@@ -1,5 +1,8 @@
-﻿namespace Mozaika.Data.Models.Core
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Mozaika.Data.Models.Core
 {
+    [Table("Tiles")]
     public class InstagramTile : Tile
     {
     }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozaika.Data.Models", "Mozaika\Mozaika.Data.Models.csproj", "{68ECC443-51AF-4AEE-8CCA-EF4198C3377F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozaika.Data.Models", "Mozaika\Mozaika.Data.Models.csproj", "{68ECC443-51AF-4AEE-8CCA-EF4198C3377F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozaika.Data", "Mozaika.Data\Mozaika.Data.csproj", "{0298F6B3-C26D-4BA5-91F8-B4D5957110CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{68ECC443-51AF-4AEE-8CCA-EF4198C3377F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68ECC443-51AF-4AEE-8CCA-EF4198C3377F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68ECC443-51AF-4AEE-8CCA-EF4198C3377F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0298F6B3-C26D-4BA5-91F8-B4D5957110CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0298F6B3-C26D-4BA5-91F8-B4D5957110CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0298F6B3-C26D-4BA5-91F8-B4D5957110CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0298F6B3-C26D-4BA5-91F8-B4D5957110CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
